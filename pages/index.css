@@ -2,7 +2,13 @@
 
 @import url(../vendor/fonts/fonts.css);
 
-/*блок header*/
+/* блок page */
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/page/__content/page__content.css);
+
+/* блок header */
 
 @import url(../blocks/header/header.css);
 
@@ -14,7 +20,7 @@
 
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
-/*блок lead*/
+/* блок lead */
 
 @import url(../blocks/lead/lead.css);
 
@@ -26,15 +32,16 @@
 
 @import url(../blocks/lead/__caption/lead__caption.css);
 
-.page {
-  background-color: #2A2C2F;
-  color: #fff;
-  font-family: 'Inter', Arial, sans-serif;
-  min-width: 320px;
-  max-width: 1280px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 0;
-}
+/* блок cover */
+
+@import url(../blocks/cover/cover.css);
+
+@import url(../blocks/content/__section/content__section.css);
+
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+
+@import url(../blocks/cover/__title/cover__title.css);
+
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
+
