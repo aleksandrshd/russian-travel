@@ -32,3 +32,22 @@
 .cover__overlay:hover::before {
   opacity: .8;
 }
+
+@media screen and (max-width: 1140px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .cover__overlay {
+    min-height: 200px;
+    padding: 10px; /* в данной работе не обязательно, из вебинара 00:59:19 */
+  }
+}

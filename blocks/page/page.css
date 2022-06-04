@@ -2,7 +2,7 @@
   background-color: #2a2c2f;
   color: #fff;
   font-weight: 400;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif; /* перенести в css секций, затем удалить */
   min-width: 320px;
   max-width: 1280px;
   min-height: 100vh;
