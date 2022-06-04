@@ -1,0 +1,12 @@
+.content__section-photo-grid {
+  box-sizing: border-box;
+  padding: 0 48px;
+  margin: 0 auto;
+}
+/*
+@media screen and (max-width: 1140px) {
+  .content__section-photo-grid {
+    padding: 0;
+  }
+}
+*/
