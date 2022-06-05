@@ -13,3 +13,10 @@
 .place__paragraph:first-of-type {
   margin-top: 0;
 }
+
+@media screen and (max-width: 568px) {
+  .place__paragraph {
+    font-size: 16px;
+    max-width: 288px;
+  }
+}

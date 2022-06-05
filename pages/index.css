@@ -78,4 +78,12 @@
 
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
+/* блок footer */
 
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/footer/__link-list/footer__link-list.css);
+
+@import url(../blocks/footer/__link/footer__link.css);
+
+@import url(../blocks/footer/__copyright/footer__copyright.css);

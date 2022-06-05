@@ -4,3 +4,9 @@
   padding: 0 148px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 568px) {
+  .content__section-places {
+    padding: 0 16px;
+  }
+}
