@@ -1,0 +1,7 @@
+.content__section-intro {
+  max-width: 690px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
