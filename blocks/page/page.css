@@ -2,13 +2,18 @@
   background-color: #2a2c2f;
   color: #fff;
   font-weight: 400;
-  font-family: 'Inter', Arial, sans-serif; /* перенести в css секций, затем удалить */
+  font-family: 'Inter', Arial, sans-serif; /* можно перенести в css секций */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
   min-width: 320px;
   max-width: 1280px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 28px 0 24px; /* из вебинара, уточнить, посмотреть */
-  /*padding: 0;*/
+  padding: 28px 0 24px;
 }
