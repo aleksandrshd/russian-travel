@@ -6,3 +6,9 @@
   margin: 0 0 12px 0;
   color: #aaa;
 }
+
+@media screen and (max-width: 568px) {
+  .place__website_url-heading {
+    width: calc(100vw - 2*16px);
+  }
+}

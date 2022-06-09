@@ -2,8 +2,6 @@
   flex-shrink: 0;
   display: grid;
   grid-row-gap: 92px;
-  /*display: flex;
-  flex-direction: column;*/
 }
 
 @media screen and (max-width: 984px) {

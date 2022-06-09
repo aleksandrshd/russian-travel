@@ -2,4 +2,24 @@
   display: flex;
   flex-direction: column;
   gap: 80px;
+  width: calc(100% - 2 * 148px);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1140px) {
+  .places {
+    width: calc(100% - 2 * 48px);
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .places {
+    width: calc(100% - 2 * 24px);
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places {
+    width: 100vw;
+  }
 }

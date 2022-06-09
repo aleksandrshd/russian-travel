@@ -11,11 +11,17 @@
   grid-column-gap: 40px;
 }
 
+@media screen and (max-width: 984px) {
+  .place {
+    grid-column-gap: 28px;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .place {
     grid-template-columns: repeat(1, minmax(min-content, max-content));
     grid-template-rows: repeat(4, minmax(min-content, max-content));
     grid-row-gap: 32px;
-    justify-items: flex-start;
+    justify-items: center;
   }
 }
