@@ -18,7 +18,11 @@
   margin: 0 auto;
   padding: 28px 0 24px;
 }
-
+/*
+.page::-webkit-scrollbar {
+  display: none;
+}
+*/
 @media screen and (max-width: 568px) {
   .page {
     padding: 16px 0 24px;
