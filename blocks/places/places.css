@@ -1,25 +1,25 @@
 .places {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 80px;
-  width: calc(100% - 2 * 148px);
+  max-width: 984px;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1140px) {
   .places {
-    width: calc(100% - 2 * 48px);
+    max-width: 90.625%;
   }
 }
 
 @media screen and (max-width: 984px) {
   .places {
-    width: calc(100% - 2 * 24px);
+    max-width: 93.75%;
+    gap: 73px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .places {
-    width: 100vw;
+    max-width: 100%;
   }
 }

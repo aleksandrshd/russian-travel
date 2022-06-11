@@ -30,8 +30,6 @@
 
 @import url(../blocks/content/__section/content__section-cover.css);
 
-@import url(../blocks/content/__section/content__section-places.css);
-
 /* блок lead */
 
 @import url(../blocks/lead/lead.css);
