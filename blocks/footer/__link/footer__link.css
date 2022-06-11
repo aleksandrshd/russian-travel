@@ -5,6 +5,11 @@
   color: #fff;
   text-decoration: none;
   margin: 0;
+  transition: opacity 0.75s linear;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 568px) {
